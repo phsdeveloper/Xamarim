@@ -5,7 +5,7 @@
              x:Class="App01_ConsultarCEP.MainPage">
 
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
-        <Image Source="correios-logo-1.png" x:Name="img_logo"/>
+        <Image Source="Logo.png" x:Name="img_logo"/>
         <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="txt_CEP"/>
         <Button Text="Buscar CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="btn_BucarCep"/>
 

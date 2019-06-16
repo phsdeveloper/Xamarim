@@ -158,6 +158,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\correios-logo-1.png" />
+    <BundleResource Include="Resources\Logo.png" />
   </ItemGroup>
 </Project>

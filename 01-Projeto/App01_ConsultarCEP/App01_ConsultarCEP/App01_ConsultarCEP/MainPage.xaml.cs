@@ -22,25 +22,44 @@ namespace App01_ConsultarCEP
 
             if(string.IsNullOrWhiteSpace(st_CepNumeros))
             {
-                lbl_Endereco.Text = "Por favor informe um CEP para verificação";
+                DisplayAlert("Aviso Sistema", "Por favor informe um CEP para verificação","Entendi");
             }
             else if(st_CepNumeros.Length!=8)
             {
-                lbl_Endereco.Text = "O cep deve conter apenas 8 numeros.";
+                DisplayAlert("Aviso Sistema", "O cep deve conter apenas 8 numeros.", "Entendi");
             }
             else
             {
-                var endereco = Servico.Modelo.ViaCepServico.BuscarEnderecoViaCEP(st_CepNumeros);
+                try
+                {
+                    var endereco = Servico.Modelo.ViaCepServico.BuscarEnderecoViaCEP(st_CepNumeros);
 
-                lbl_Endereco.Text = $"Endereço: {endereco.logradouro}";
-                lbl_Endereco.Text += Environment.NewLine;
-                lbl_Endereco.Text += $"Bairro: {endereco.bairro}";
-                lbl_Endereco.Text += Environment.NewLine;
-                lbl_Endereco.Text += $"Cidade: {endereco.localidade}";
-                lbl_Endereco.Text += Environment.NewLine;
-                lbl_Endereco.Text += $"Estado: {endereco.uf}";
-                lbl_Endereco.Text += Environment.NewLine;
-                lbl_Endereco.Text += $"CEP: {endereco.cep}";
+                    if(endereco.erro)
+                    {
+                        DisplayAlert("ERRO", "O cep informado não foi encontrado", "Entendi");
+                    }
+                    else
+                    {
+                        lbl_Endereco.Text = $"Endereço: {endereco.logradouro}";
+                        lbl_Endereco.Text += Environment.NewLine;
+                        lbl_Endereco.Text += $"Bairro: {endereco.bairro}";
+                        lbl_Endereco.Text += Environment.NewLine;
+                        lbl_Endereco.Text += $"Cidade: {endereco.localidade}";
+                        lbl_Endereco.Text += Environment.NewLine;
+                        lbl_Endereco.Text += $"Estado: {endereco.uf}";
+                        lbl_Endereco.Text += Environment.NewLine;
+                        lbl_Endereco.Text += $"CEP: {endereco.cep}";
+                    }
+
+
+                    
+                }
+                catch (Exception ex)
+                {
+
+                    DisplayAlert("ERRO", $"", "Entendi");
+                }
+                
             }
         }
     }
