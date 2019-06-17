@@ -10,7 +10,7 @@ namespace App02_TiposTela
         public App()
         {
             InitializeComponent();
-            MainPage = new TipoPagina.Carrossel.TipoPagina1();
+            MainPage = new TipoPagina.Carrossel.IntroducaoApp();
             //MainPage = new MainPage();
         }
 

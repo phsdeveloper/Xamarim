@@ -160,4 +160,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\xamarin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pagina03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pagina02.jpg" />
+  </ItemGroup>
 </Project>

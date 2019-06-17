@@ -4,9 +4,12 @@
              x:Class="App02_TiposTela.TipoPagina.Carrossel.TipoPagina2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Pagina 02 Uchiha Itachi" 
+           TextColor="Blue"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+            <Image Source="pagina02.jpg" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
