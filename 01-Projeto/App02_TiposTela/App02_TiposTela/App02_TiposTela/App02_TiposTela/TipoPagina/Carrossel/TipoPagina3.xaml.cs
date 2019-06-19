@@ -16,5 +16,11 @@ namespace App02_TiposTela.TipoPagina.Carrossel
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void MudarPagina(object sender, EventArgs e)
+        {
+            //Vai forçar uma transição de pagina
+            App.Current.MainPage = new Navigation.Pagina1();
+        }
+    }
 }

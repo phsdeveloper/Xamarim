@@ -9,7 +9,7 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
-            <Button Image="pagina03.jpg" />
+            <Button Image="play.png" Clicked="MudarPagina" x:Name="btn_play"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

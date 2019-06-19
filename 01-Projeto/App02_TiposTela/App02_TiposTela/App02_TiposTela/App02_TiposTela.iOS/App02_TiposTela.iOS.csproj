@@ -166,4 +166,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\pagina02.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\play.png" />
+  </ItemGroup>
 </Project>
