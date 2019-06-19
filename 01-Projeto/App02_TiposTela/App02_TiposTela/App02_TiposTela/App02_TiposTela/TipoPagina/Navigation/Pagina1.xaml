@@ -7,6 +7,8 @@
             <Label Text="Eu sou uma contet page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Ir para a pagina 2" x:Name="btn_mudar" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

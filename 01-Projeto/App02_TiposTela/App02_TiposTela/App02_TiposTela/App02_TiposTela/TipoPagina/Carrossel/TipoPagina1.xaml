@@ -12,8 +12,6 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
-          
-
             <Image Source="xamarin.png" />
         </StackLayout>
     </ContentPage.Content>
