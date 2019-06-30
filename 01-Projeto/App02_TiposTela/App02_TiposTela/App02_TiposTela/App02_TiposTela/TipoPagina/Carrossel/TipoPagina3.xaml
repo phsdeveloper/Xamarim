@@ -4,7 +4,7 @@
              x:Class="App02_TiposTela.TipoPagina.Carrossel.TipoPagina3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Pagina 03 Uzumaki Naruto e Uchiha Sasuke" 
+            <Label Text="Pagina 03 Ir para outra pagina" 
            TextColor="Blue"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />

@@ -20,7 +20,7 @@ namespace App02_TiposTela.TipoPagina.Carrossel
         private void MudarPagina(object sender, EventArgs e)
         {
             //Vai forçar uma transição de pagina
-            App.Current.MainPage = new Navigation.Pagina1();
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.Blue};
         }
     }
 }

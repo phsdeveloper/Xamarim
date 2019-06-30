@@ -16,5 +16,13 @@ namespace App02_TiposTela.TipoPagina.Navigation
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void btn_mudar_click(object sender,EventArgs args)
+        {
+            DisplayAlert("Aviso Sistema", "Envento chamado", "Entendi");
+            Navigation.PushAsync(new Pagina2());
+           
+        }
+
+    }
 }
