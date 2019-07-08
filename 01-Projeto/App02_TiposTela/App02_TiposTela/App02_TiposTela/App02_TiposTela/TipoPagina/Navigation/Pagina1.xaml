@@ -4,8 +4,8 @@
              x:Class="App02_TiposTela.TipoPagina.Navigation.Pagina1"
              Title="Titulo da Navigation">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Pesquisa" Icon="xamarin.png"/>
-        <ToolbarItem Text="Detalhes" Icon="Play.png"/>
+        <ToolbarItem Text="Pesquisa" Icon="about.png"/>
+        <ToolbarItem Text="Detalhes" Icon="add.png"/>
         <ToolbarItem Text="Ordernar" />
     </ContentPage.ToolbarItems>
     

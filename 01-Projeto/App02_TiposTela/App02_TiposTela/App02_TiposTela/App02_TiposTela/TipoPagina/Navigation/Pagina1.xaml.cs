@@ -24,5 +24,10 @@ namespace App02_TiposTela.TipoPagina.Navigation
            
         }
 
+        private void btn_chamarModal_click(object sender,EventArgs args)
+        {
+
+        }
+
     }
 }
