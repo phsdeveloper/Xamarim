@@ -133,6 +133,8 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="delete.png" />
+    <Content Include="find.png" />
+    <Content Include="index_view.png" />
     <Content Include="pagina02.jpg" />
     <Content Include="pagina03.png" />
     <Content Include="play.png" />

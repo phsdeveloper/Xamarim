@@ -4,9 +4,44 @@
              x:Class="App02_TiposTela.TipoPagina.Navigation.Modal">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eu sou uma Modal"
+
+
+            <Label Text="Aula 40. Navigation Page - Modal"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button 
+                    x:Name="btn_fechar" 
+                    Clicked="Btn_fechar_Clicked" 
+                    Image="delete.png" 
+                    Text="Fechar" 
+                    BackgroundColor="Gray" 
+                    BorderColor="Black"
+                    HeightRequest="35" 
+                    FontSize="Small"
+                    HorizontalOptions="End"
+                    VerticalOptions="Center"
+                    />
+                <Button 
+                    Image="add.png" 
+                    BackgroundColor="LightGreen" 
+                    BorderColor="Black"
+                    HeightRequest="35" 
+                    FontSize="Small"
+                    HorizontalOptions="End"
+                     Text="Adicionar" 
+                    />
+
+
+                <Button Image="find.png" BackgroundColor="LightBlue" BorderColor="Black"
+                         HeightRequest="35" 
+                    FontSize="Small"
+                    HorizontalOptions="End"
+                        Text="Pesquisar" 
+                        />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

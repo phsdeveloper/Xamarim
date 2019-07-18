@@ -5,7 +5,7 @@
              Title="Titulo página 02">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eu sou a pagina 2"
+            <Label Text="Aula: 37 e 38. Navigation Page: INtrodução "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
