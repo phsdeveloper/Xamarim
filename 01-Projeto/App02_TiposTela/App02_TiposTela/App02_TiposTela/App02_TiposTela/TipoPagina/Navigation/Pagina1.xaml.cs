@@ -12,16 +12,28 @@ namespace App02_TiposTela.TipoPagina.Navigation
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Pagina1 : ContentPage
     {
+        private string st_Classe = "";
         public Pagina1()
         {
+            InitializeComponent();
+        }
+        public Pagina1(string Classe)
+        {
+            st_Classe = Classe;
             InitializeComponent();
         }
 
         private void btn_mudar_click(object sender, EventArgs args)
         {
-            DisplayAlert("Aviso Sistema", "Envento chamado", "Entendi");
-            Navigation.PushAsync(new Pagina2());
-
+            if(st_Classe.Equals("NavigationPage"))
+            {
+                DisplayAlert("Aviso Sistema", "Envento chamado", "Entendi");
+                Navigation.PushAsync(new Pagina2());
+            }
+            else
+            {
+                DisplayAlert("Aviso Sistema", "Esse tipo de Tela não comporta esse Evento", "Entendi");
+            }
         }
 
         private void btn_chamarModal_click(object sender, EventArgs args)
