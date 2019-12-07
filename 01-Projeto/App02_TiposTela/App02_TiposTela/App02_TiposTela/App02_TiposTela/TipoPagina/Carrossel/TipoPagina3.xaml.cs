@@ -20,14 +20,20 @@ namespace App02_TiposTela.TipoPagina.Carrossel
         private void MudarPagina(object sender, EventArgs e)
         {
             //Vai forçar uma transição de pagina
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1("NavigationPage")) { BarBackgroundColor = Color.Blue};
-            
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1("NavigationPage")) { BarBackgroundColor = Color.Blue };
+
         }
 
         private void Btn_ExmploAula40_Clicked(object sender, EventArgs e)
         {
             //Adiciona a tela a uma parada de abas
             App.Current.MainPage = new Tabbed.Abas();
+        }
+
+        private void Btn_Naxam_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new TipoPagina.Master.Master();
+            
         }
     }
 }

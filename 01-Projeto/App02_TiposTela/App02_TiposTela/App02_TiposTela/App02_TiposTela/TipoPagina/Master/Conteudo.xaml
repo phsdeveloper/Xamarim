@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App02_TiposTela.TipoPagina.Navigation.Pagina2"
-             Title="Página 02"
-             >
+             x:Class="App02_TiposTela.TipoPagina.Master.Conteudo"
+             Title="Conteudo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Aula: 37 e 38. Navigation Page: INtrodução "
+            <Label Text="Aula 42.MasterDetailPage - Menu Lateral"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

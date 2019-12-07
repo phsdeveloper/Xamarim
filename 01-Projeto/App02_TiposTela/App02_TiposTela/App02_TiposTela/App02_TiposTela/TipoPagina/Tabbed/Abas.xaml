@@ -3,8 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TiposTela.TipoPagina.Tabbed.Abas"
             xmlns:nav="clr-namespace:App02_TiposTela.TipoPagina.Navigation"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            
             >
-    <nav:Pagina1/>
-    <nav:Pagina2/>
-    <nav:Pagina1/>
+    <NavigationPage Title="item 2" Icon="disks.png">
+        <x:Arguments>
+            <nav:Pagina2  />
+        </x:Arguments>
+    </NavigationPage>
+
+
+    <nav:Pagina1 Title="Item 1" Icon="add.png"/>
+   
+
+
 </TabbedPage>

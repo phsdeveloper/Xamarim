@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TiposTela.TipoPagina.Master.Master"
+                  xmlns:master="clr-namespace:App02_TiposTela.TipoPagina.Master"
+                  Title="Teste" Icon="add.png"
+                  >
+
+    <MasterDetailPage.Master>
+        <!-- Menu  -->
+        <ContentPage Title="Menu" Icon="add.png">
+            <StackLayout>
+                <Button Text="Pagina1"   x:Name="btn_Item1"   BackgroundColor="Transparent"  Clicked="Btn_Item1_Clicked" />
+                <Button Text="Pagina2"   x:Name="btn_Item2"   BackgroundColor="Transparent"  Clicked="Btn_Item2_Clicked" />
+                <Button Text="conteudo"  x:Name="btn_Item3"   BackgroundColor="Transparent"  Clicked="Btn_Item3_Clicked" />
+            </StackLayout>
+        </ContentPage>
+
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <!-- Contedudo  -->
+        <master:Conteudo/>
+
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

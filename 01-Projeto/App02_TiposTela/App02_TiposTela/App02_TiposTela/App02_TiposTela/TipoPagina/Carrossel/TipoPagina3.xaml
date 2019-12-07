@@ -11,7 +11,8 @@
 
             <Button Image="add.png" x:Name="btn_ExemploAula39" Clicked="MudarPagina"  Text="Exemplo aula 39" />
             <Button Image="add.png" x:Name="btn_ExmploAula40" Clicked="Btn_ExmploAula40_Clicked" Text="Exemplo aula 40"/>
-            
+            <Button Image="add.png" x:Name="btn_Naxam" Clicked="Btn_Naxam_Clicked" Text="Exemplo menu"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -25,7 +25,7 @@ namespace App02_TiposTela.TipoPagina.Navigation
 
         private void btn_mudar_click(object sender, EventArgs args)
         {
-            if(st_Classe.Equals("NavigationPage"))
+            if (st_Classe.Equals("NavigationPage"))
             {
                 DisplayAlert("Aviso Sistema", "Envento chamado", "Entendi");
                 Navigation.PushAsync(new Pagina2());
@@ -34,6 +34,8 @@ namespace App02_TiposTela.TipoPagina.Navigation
             {
                 DisplayAlert("Aviso Sistema", "Esse tipo de Tela não comporta esse Evento", "Entendi");
             }
+
+
         }
 
         private void btn_chamarModal_click(object sender, EventArgs args)
@@ -60,6 +62,11 @@ namespace App02_TiposTela.TipoPagina.Navigation
             }
 
 
+        }
+
+        private void Btn_Voltar_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new TipoPagina.Carrossel.IntroducaoApp();
         }
     }
 }

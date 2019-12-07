@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App02_TiposTela.iOS", "App0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App02_TiposTela.UWP", "App02_TiposTela\App02_TiposTela.UWP\App02_TiposTela.UWP.csproj", "{EF4D0E10-EAA9-4044-8A0F-4B9B4D2D0C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App02_TiposTela", "App02_TiposTela\App02_TiposTela\App02_TiposTela.csproj", "{693065B6-2369-4C4B-B259-C4D6D9EB2FDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App02_TiposTela", "App02_TiposTela\App02_TiposTela\App02_TiposTela.csproj", "{693065B6-2369-4C4B-B259-C4D6D9EB2FDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,5 +333,23 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {706C3F2A-6A2F-41D4-B2E3-122BEA91F7BF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://phsdeveloper.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = App02_TiposTela\\App02_TiposTela.Android\\App02_TiposTela.Android.csproj
+		SccProjectName1 = App02_TiposTela/App02_TiposTela.Android
+		SccLocalPath1 = App02_TiposTela\\App02_TiposTela.Android
+		SccProjectUniqueName2 = App02_TiposTela\\App02_TiposTela.iOS\\App02_TiposTela.iOS.csproj
+		SccProjectName2 = App02_TiposTela/App02_TiposTela.iOS
+		SccLocalPath2 = App02_TiposTela\\App02_TiposTela.iOS
+		SccProjectUniqueName3 = App02_TiposTela\\App02_TiposTela.UWP\\App02_TiposTela.UWP.csproj
+		SccProjectName3 = App02_TiposTela/App02_TiposTela.UWP
+		SccLocalPath3 = App02_TiposTela\\App02_TiposTela.UWP
+		SccProjectUniqueName4 = App02_TiposTela\\App02_TiposTela\\App02_TiposTela.csproj
+		SccProjectName4 = App02_TiposTela/App02_TiposTela
+		SccLocalPath4 = App02_TiposTela\\App02_TiposTela
 	EndGlobalSection
 EndGlobal
